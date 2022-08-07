@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    font-size: 14px;
+    height: 80px;
+}
+
+nav{
+    font-size: 14px;
+    padding-top: 14px;
+}
+
+.left img{
+    width: 48px;
+}
+
+.search{
+    border: none;
+    padding: 9px;
+    width: 28vw;
+    background: aliceblue;
+}
+.container{
+    padding: 0 4vw;
+}
+main{   
+    background-color: rgb(241, 245, 249);
+}
+
+ul{
+    padding:0px 10px;
+}
+.left ul li{
+    list-style: none;
+    padding: 0px 14px;
+}
+main section{
+    width:100vw ;
+}
+.homepng{
+    width: 100%;
+}
+
+.searchicon{
+    background-color: aliceblue;
+    padding: 8.5px 10px;
+}
+
+footer{
+    padding: 50px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1061px) {
+    .itemlabel{
+        display: none;
+    }
+
+    .medq{
+        padding: 0px 6px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    header{
+        height: 113px;
+    }
+    .search{
+        width: 35vw;
+    }
+  }

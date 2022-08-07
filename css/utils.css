@@ -20,3 +20,22 @@
     margin-right: 12px;
     margin-left: 12px;
 }
+.flexdireccol{
+    flex-direction: column;
+}
+.m-auto{
+    margin: auto;
+}
+
+.grid{
+    display: grid;
+}
+
+.grid-col{
+    grid-template-columns: repeat(8,1fr);
+}
+
+.scroll{
+    width: auto;
+    overflow-x: auto;
+}
